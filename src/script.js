@@ -29,7 +29,7 @@
     if (!toggleThemeBtn || typeof document === "undefined") return;
 
     document.body.classList.toggle("dark-mode");
-    toggleThemeBtn.textContent = document.body.classList.contains("dark-mode") ? "🌚" : "🌞";
+    toggleThemeBtn.textContent = document.body.classList.contains("dark-mode") ? "Dark" : "Light";
   }
 
   function fillPeopleDropdown() {
